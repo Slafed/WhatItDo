@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonWidth">185dp</dimen>
+    <dimen name="buttonHeight">55dp</dimen>
+    <dimen name="layoutMarginStart">8dp</dimen>
+    <dimen name="layoutMarginEnd">8dp</dimen>
+    <dimen name="layoutMarginTop">30dp</dimen>
+    <dimen name="layoutMarginBottom">30dp</dimen>
+    <dimen name="textPaddingTop">7dp</dimen>
+</resources>

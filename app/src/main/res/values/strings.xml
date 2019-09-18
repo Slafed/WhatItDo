@@ -1,10 +1,8 @@
 <resources>
     <string name="app_name">What It Do?</string>
-    <string name="checkbox_text2">ayyy, what is up gamer?</string>
-    <string name="checkbox_text1">awww, click it again</string>
-    <string name="radio_text1">stinky</string>
-    <string name="radio_text2">super stinky</string>
-    <string name="Switch_text1">wax on</string>
-    <string name="Switch_text2">wax off</string>
-    <string name="button">Change Img</string>
+    <string name="checkbox_text1">Gamer?</string>
+    <string name="radio_text1">click me!</string>
+    <string name="radio_text2">no, click me!</string>
+    <string name="Switch_text1">on or off?</string>
+    <string name="whatitdo">What It Do?</string>
 </resources>

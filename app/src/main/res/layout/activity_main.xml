@@ -9,13 +9,13 @@
 
     <TextView
         android:id="@+id/whatItDo3"
-        android:layout_width="@dimen/buttonWidth"
-        android:layout_height="@dimen/buttonHeight"
+        android:layout_width="190dp"
+        android:layout_height="135dp"
         android:layout_marginStart="@dimen/layoutMarginStart"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="@dimen/layoutMarginTop"
         android:layout_marginEnd="@dimen/layoutMarginEnd"
         android:paddingTop="6dp"
-        android:text="What It Do?"
+        android:text="@string/whatitdo"
         android:textAlignment="center"
         android:textColor="@color/text"
         android:textSize="30sp"
@@ -26,13 +26,13 @@
 
     <TextView
         android:id="@+id/whatItDo1"
-        android:layout_width="@dimen/buttonWidth"
-        android:layout_height="@dimen/buttonHeight"
+        android:layout_width="189dp"
+        android:layout_height="135dp"
         android:layout_marginStart="@dimen/layoutMarginStart"
         android:layout_marginTop="@dimen/layoutMarginTop"
         android:layout_marginEnd="@dimen/layoutMarginEnd"
         android:paddingTop="6dp"
-        android:text="What It Do?"
+        android:text="@string/whatitdo"
         android:textAlignment="center"
         android:textColor="@color/text"
         android:textSize="30sp"
@@ -40,21 +40,6 @@
         app:layout_constraintHorizontal_bias="0.961"
         app:layout_constraintStart_toEndOf="@+id/checkBox"
         app:layout_constraintTop_toBottomOf="@+id/title" />
-
-    <RadioButton
-        android:id="@+id/radioButton1"
-        android:layout_width="203dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="@dimen/layoutMarginStart"
-        android:layout_marginTop="@dimen/layoutMarginTop"
-        android:layout_marginEnd="@dimen/layoutMarginEnd"
-        android:text="click me!"
-        android:textColor="@color/text"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.038"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
     <TextView
         android:id="@+id/title"
@@ -79,7 +64,7 @@
         android:layout_marginStart="@dimen/layoutMarginStart"
         android:layout_marginTop="@dimen/layoutMarginTop"
         android:layout_marginEnd="@dimen/layoutMarginEnd"
-        android:text="Gamer?"
+        android:text="@string/checkbox_text1"
         android:textColor="@color/text"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,50 +74,34 @@
 
     <TextView
         android:id="@+id/whatItDo2"
-        android:layout_width="@dimen/buttonWidth"
-        android:layout_height="@dimen/buttonHeight"
+        android:layout_width="186dp"
+        android:layout_height="136dp"
         android:layout_marginStart="@dimen/layoutMarginStart"
-        android:layout_marginTop="68dp"
         android:layout_marginEnd="@dimen/layoutMarginEnd"
         android:paddingTop="6dp"
-        android:text="What It Do?"
+        android:text="@string/whatitdo"
         android:textAlignment="center"
         android:textColor="@color/text"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.98"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/whatItDo3" />
-
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="203dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="@dimen/layoutMarginStart"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="@dimen/layoutMarginEnd"
-        android:text="no, click me!"
-        android:textColor="@color/text"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.036"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="@dimen/buttonWidth"
         android:layout_height="@dimen/buttonHeight"
         android:layout_marginStart="@dimen/layoutMarginStart"
-        android:layout_marginTop="@dimen/layoutMarginTop"
+        android:layout_marginTop="43dp"
         android:layout_marginEnd="@dimen/layoutMarginEnd"
-        android:text="on or off?"
+        android:text="@string/Switch_text1"
         android:textColor="@color/text"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintHorizontal_bias="0.057"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -144,30 +113,61 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/switch1"
-        app:layout_constraintVertical_bias="0.239"
+        app:layout_constraintVertical_bias="1.0"
         tools:srcCompat="@tools:sample/avatars[2]" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="@dimen/buttonWidth"
-        android:layout_height="@dimen/buttonHeight"
+        android:layout_width="157dp"
+        android:layout_height="97dp"
         android:layout_marginStart="@dimen/layoutMarginStart"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="@dimen/layoutMarginEnd"
         android:layout_marginBottom="@dimen/layoutMarginBottom"
         android:background="@drawable/circles"
         android:onClick="check"
-        android:text="What It Do?"
+        android:text="@string/whatitdo"
         android:textColor="@color/text"
         android:textSize="24sp"
+        android:drawableTop="@drawable/ic_forward_black_24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/whatItDo2"
-        app:layout_constraintVertical_bias="0.311" />
+        app:layout_constraintVertical_bias="0.72" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="207dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="@dimen/layoutMarginStart"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="@dimen/layoutMarginEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="203dp"
+            android:layout_height="58dp"
+            android:text="@string/radio_text1"
+            android:textColor="@color/text"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="203dp"
+            android:layout_height="58dp"
+            android:text="@string/radio_text2"
+            android:textColor="@color/text"
+            android:textSize="30sp" />
+
+    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
